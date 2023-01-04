@@ -25,7 +25,10 @@ time, mark, audio, video {
 
 /*  CSSZINHOW  */
 
-
+body {
+    max-width: 100vh;
+    max-height: 100vh;
+}
 
 header {
     background-color: #c5f1e1b1;
@@ -33,8 +36,6 @@ header {
     background-size: cover;
     border: 4px solid #10dc9eaf;
     filter: invert(30%);
-    max-height: 10vh;
-    max-width: 100vh;
     padding-bottom: 7vh;
 }
 
@@ -60,9 +61,7 @@ header {
     background-image: url(./assets/leyeah1.png);
     background-size: cover;
     border: 4px solid #10dc9eaf;
-    filter: invert(30%);
-    max-height: 90vh;
-    max-width: 100vh;    
+    filter: invert(30%);   
     padding-top: 170px;
 }
 
@@ -70,6 +69,7 @@ header {
     align-items: center;
     display: flex;
     font-size: 6vh;
+    margin-top: -80px;
     justify-content: center;
 }
 
@@ -77,14 +77,9 @@ header {
     align-items: center;
     display: flex;
     font-size: 5vh;
-    justify-content: center;
+    justify-content: center;    
     margin-top: 30px;
-    margin-bottom: 100px;
-}
-
-.bora {
-    display: block;
-    margin: auto;
+    margin-bottom: 180px;
 }
 
 #start, #show, #showSecret {
@@ -99,7 +94,7 @@ header {
 
 #start {
     position: absolute;
-    top: 70px;
+    top: 620px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -108,11 +103,12 @@ header {
 
 #show {
     border: red;
+    bottom: 100px;
 }
 
 #showSecret {
     position: absolute;
-    top: 0;
+    top: 620px;
     right: 0;
     bottom: 0;
     left: 0;
