@@ -32,10 +32,9 @@ body {
 
 header {
     background-color: #c5f1e1b1;
-    background-image: url(./assets/monazinha.png);
+    background-image: url(./assets/monazinha1.png);
     background-size: cover;
-    border: 4px solid #10dc9eaf;
-    filter: invert(35%);
+    border: 2px solid #10dc9eaf;
     padding-bottom: 7vh;
 }
 
@@ -58,29 +57,65 @@ header {
 } */
 
 #template {
-    background-image: url(./assets/leyeah1.png);
+    background-image: url(./assets/leyeah2.png);
     background-size: cover;
-    border: 4px solid #10dc9eaf;
-    filter: invert(35%);   
-    padding-top: 170px;
-    padding-bottom: 100px;
+    border: 2px solid #10dc9eaf;
+    padding-bottom: 40vh;
+    padding-top: 5vh;
 }
 
-.players, .players1 {
+.players,
+.players1 {    
     align-items: center;
+    background-color: #7813ae47;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: flex;
     font-size: 6vh;
-    margin-top: -80px;
     justify-content: center;
+    margin: 5vh 10vh 5vh 10vh;
+
 }
 
 .wrapper {
     align-items: center;
     display: flex;
-    font-size: 5vh;
-    justify-content: center;    
-    margin-top: 30px;
-    margin-bottom: 120px;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+
+.minus, .minus1 {
+    align-items: center;
+    background-color: #f7791140;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
+    display: flex;
+    font-size: 6vh;
+    width: 5vh;
+    justify-content: center;
+}
+
+.num, .num1 {
+    align-items: center;
+    background-color: #f7791140;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
+    display: flex;
+    font-size: 6vh;
+    width: 5vh;
+    justify-content: center;  
+}
+
+.plus, .plus1 {
+    align-items: center;
+    background-color: #f7791140;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
+    display: flex;
+    font-size: 6vh;
+    width: 5vh;
+    justify-content: center;
 }
 
 #start, #show, #showSecret {
