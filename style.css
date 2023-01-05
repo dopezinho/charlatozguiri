@@ -67,7 +67,7 @@ header {
 .players,
 .players1 {    
     align-items: center;
-    background-color: #7813ae47;
+    background-color: #7ed18984;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: flex;
@@ -87,7 +87,7 @@ header {
 
 .minus, .minus1 {
     align-items: center;
-    background-color: #f7791140;
+    background-color: #f9f9f9ad;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: flex;
@@ -98,18 +98,19 @@ header {
 
 .num, .num1 {
     align-items: center;
-    background-color: #f7791140;
+    background-color: #7ed18984;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: flex;
     font-size: 6vh;
+    margin: 0 4vh 0 4vh;
     width: 5vh;
     justify-content: center;  
 }
 
 .plus, .plus1 {
     align-items: center;
-    background-color: #f7791140;
+    background-color: #f9f9f9ad;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: flex;
@@ -121,14 +122,15 @@ header {
 #start, #show, #showSecret {
     border-radius: 12px;
     display: block;
-    height: 10vh;
+    height: 7vh;
     margin: auto;
     position: relative;        
-    width: 10vh;    
+    width: 5vh;    
 }
 
 
 #start {
+    background-color: green;
     position: absolute;
     top: 70vh;
     right: 0;
@@ -138,11 +140,13 @@ header {
 }
 
 #show {
-    border: red;    
-    bottom: 16vh;
+    background-color: red;
+    border: red;
+    bottom: 29vh;
 }
 
 #showSecret {
+    background-color: black;
     position: absolute;
     top: 70vh;
     right: 0;
