@@ -120,17 +120,27 @@ header {
 }
 
 #start, #show, #showSecret {
+    background-color: #85dc145b;
+    background-image: url(./assets/avocado.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: contain;    
     border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.7);
     display: block;
+    filter: invert(80%);
     height: 7vh;
     margin: auto;
     position: relative;        
     width: 5vh;    
 }
 
+#start:hover, #show:hover, #showSecret:hover {
+    cursor: pointer;
+}
+
 
 #start {
-    background-color: green;
     position: absolute;
     top: 70vh;
     right: 0;
@@ -140,13 +150,11 @@ header {
 }
 
 #show {
-    background-color: red;
     border: red;
     bottom: 29vh;
 }
 
 #showSecret {
-    background-color: black;
     position: absolute;
     top: 70vh;
     right: 0;
